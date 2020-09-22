@@ -1,0 +1,176 @@
+/* Cabecera */
+
+li{
+  display: inline-block;
+  position: relative;
+  margin: 0 3px 0 0;
+  padding: 0;
+  margin-left: 170px;
+  top: 8px;
+}
+
+
+li .dropbtn {
+  display: inline-block;
+  color: rgba(255,255,255,.5);
+  padding: 14px 16px;
+  text-decoration: none;
+  position: relative;
+  padding: 0;
+  margin: 8px;
+  right: 8px;
+}
+
+
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #343a40;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  color: rgba(255,255,255,.5);
+}
+
+.dropdown-content a {
+  color: rgba(255,255,255,.5);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#googlefontss{
+  font-family: 'Lora', serif;
+}
+
+#imagen-insta{
+  margin-top: 5px;
+}
+
+#logo{
+  width: 40px;
+  margin-top: -10px;
+}
+
+
+/* Seccion 1 */
+#texto-centrado{
+  margin-top: 150px;
+  color: black;
+}
+
+#main{
+  margin-top: 80px;
+  margin-bottom: 5px;
+}
+
+
+#articulo2,#articulo3{
+  margin-top: 20px;
+}
+
+#desplazarBotones{
+  margin-top: 120px;
+  margin-left: 700px;
+}
+
+.col-12{
+  margin-top: 20px;
+}
+
+
+
+/* Footer */
+
+footer{
+  height: auto;
+  background-color: #000;
+  margin-top: 80px;
+}
+
+#col-footer{
+  margin-top: 60px;
+  color: white;
+  margin-right: auto;
+}
+
+#col2-footer{
+  margin-top: 60px;
+  color: white;
+  margin-left: auto;
+}
+
+#wid{
+  padding-left: 50px;
+}
+
+#desplazar{
+  margin-top: 85px;
+  color: white;
+}
+
+#phone{
+ margin: 0 16px 0 0;
+}
+
+
+#mail{
+  margin: 0 10px 0 0;
+}
+
+#maps{
+  margin: 0 10px 0 0;
+}
+
+#ubi{
+  margin: 0 16px 0 0;
+}
+
+
+@media only screen and (max-width: 600px){
+  #desplazarBotones{
+    margin-left: 60px;
+  }
+  #cards{
+    margin-left: 50px;
+  }
+
+ li{
+   margin-left: 10px;
+ }
+#gris{
+  margin-top: 8px;
+}
+}
+
+#FontInsta{
+  margin-top: 30px;
+  font-size: 30px;
+  margin: 10px;
+  color: #c13584;
+}
+
+#FontFace{
+  font-size: 30px;
+  margin: 55px;
+  color: #3b5998;
+}
+
+#FontTwitter{
+  font-size: 30px;
+  margin: 25px;
+  color: #1da1f2;
+}
+
+#cmabioColor{
+  color: white;
+}
